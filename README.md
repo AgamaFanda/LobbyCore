@@ -14,6 +14,8 @@ Always spawn - everytime player join to game it will teleport him to Lobby
 
 Navigator - navigator is minigame selector on lobby, just click with item to show list of minigames
 
+Disable Hunger- Disable or enable hunger on lobby
+
 # Commands
 /lobby - Teleport player to lobby
 
