@@ -1,3 +1,7 @@
+# Download
+
+https://poggit.pmmp.io/ci/AgamaFanda/LobbyCore/~
+
 # Features
 
 Custom join/quit text
