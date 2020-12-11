@@ -11,6 +11,7 @@ use pocketmine\player;
 use pocketmine\event\player\PlayerJoinEvent;
 use pocketmine\event\player\PlayerQuitEvent;
 use pocketmine\event\player\PlayerInteractEvent;
+use pocketmine\event\player\PlayerMoveEvent;
 
 use pocketmine\item\Item;
 use pocketmine\item\ItemFactory;
@@ -247,6 +248,16 @@ class Main extends PluginBase implements Listener {
                         ["$name", "$online", "$maxonline"],
                         $qm);
                     $event->setQuitMessage($leftmsg);
+    }
+    public function onMove(PlayerMoveEvent $event){
+        $player = $event->getPlayer();
+        $world = $this->getConfig()->get("lobby-world");
+        if($this->getConfig()->get("enable-hunger") === false){
+            if($player->getLevel()->getName() === $world){
+                $player->setFood(20);
+                return true;
+            }
+        }
     }
     public function onClick(PlayerInteractEvent $event){
         $player = $event->getPlayer();

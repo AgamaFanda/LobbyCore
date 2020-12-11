@@ -15,6 +15,8 @@ quit-message: "§e[Player] left §a[Online_Players]/[Max_Online]"
 #everytime player join teleports him to world you type lobby-world
 always-spawn: true #if you want to disable always spawn type false instance of true
 lobby-world: "world" #type here your world where you have lobby
+enable-hunger: false #this will disable or enable hunger on lobby
+#if you want to enable hunger change to true
 lobby-message: "§aYou were teleported to Lobby" #when player teleports to lobby with /lobby or /hub send him this message
 
 #navigator for minigames

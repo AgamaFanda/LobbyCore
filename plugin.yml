@@ -1,6 +1,6 @@
 ---
 name: LobbyCore
-version: 0.1
+version: 0.3
 main: AgamaFanda\LobbyCore\Main
 author: AgamaFanda
 api: 3.16.0
