@@ -1,0 +1,38 @@
+#Lobby Core plugin by
+#AgamaFanda
+#if you have any issue, contact me on discord AgamaFanda#9785
+
+#use § for colors
+#send message to player when join
+private-message: true
+join-private-message: "§1Welcome [Player] to server"
+
+#when player join send message to all players
+join-message: "§e[Player] joined §a[Online_Players]/[Max_Online]"
+#when player quit send message to all players
+quit-message: "§e[Player] left §a[Online_Players]/[Max_Online]"
+
+#everytime player join teleports him to world you type lobby-world
+always-spawn: true #if you want to disable always spawn type false instance of true
+lobby-world: "world" #type here your world where you have lobby
+lobby-message: "§aYou were teleported to Lobby" #when player teleports to lobby with /lobby or /hub send him this message
+
+#navigator for minigames
+enable-navigator: true #if you want to disable navigator type false instance of true
+navigator-id: 345 #type here id of navigator
+navigator-name: "§cNavigator" #type here custom name of navigator
+navigator-slot: 4 #to what slot in your inventory you want to put navigator
+
+send.command-as: player #send command as player or console
+minigame-1: "§aMinigame 1"
+command-minigame-1: "say update this in config"
+minigame-2: "§aMinigame 2"
+command-minigame-2: "say go to config and update this"
+minigame-3: "§aMinigame 3"
+command-minigame-3: "say this will not work if you will not update it"
+minigame-4: "§aMinigame 4"
+command-minigame-4: "say please update this in config [Player]"
+minigame-5: "§aMinigame 5"
+command-minigame-5: "say just go to config and update this"
+minigame-6: "§aMinigame 6"
+command-minigame-6: "say fine leave it as it is, just will not work"

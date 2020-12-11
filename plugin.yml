@@ -1,0 +1,15 @@
+---
+name: LobbyCore
+version: 0.1
+main: AgamaFanda\LobbyCore\Main
+author: AgamaFanda
+api: 3.16.0
+
+commands:
+  lobbycore:
+    description: "show info about LobbyCore plugin"
+  lobby:
+    description: "teleports to lobby"
+  hub:
+    description: "teleports to hub"
+...
