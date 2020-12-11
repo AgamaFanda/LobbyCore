@@ -4,7 +4,7 @@
 
 #use § for colors
 #send message to player when join
-private-message: true
+private-message: true #if you want to disable always spawn type false instance of true
 join-private-message: "§1Welcome [Player] to server"
 
 #when player join send message to all players
