@@ -50,6 +50,7 @@ class Main extends PluginBase implements Listener {
             $sender->sendMessage("§a- Navigator/minigame selector");
             $sender->sendMessage("§a- /lobby command with animation");
             $sender->sendMessage("§a- private message when player joins");
+	    $sender->sendMessage("§a- disable hunger on Lobby");
             $sender->sendMessage("§a");
             $sender->sendMessage("§eDownload: https://github.com/AgamaFanda/LobbyCore");
             $sender->sendMessage("§0-----------------------");
